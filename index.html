@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер Валют</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Конвертер Валют</h1>
+    <nav>
+        <ul>
+            <li><a href="#exchange-rates">Курси валют</a></li>
+            <li><a href="#converter">Конвертер</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="introduction">
+        <h2>Ласкаво просимо до Конвертера Валют</h2>
+        <p>Цей інструмент допоможе вам швидко та зручно конвертувати валюти за актуальними курсами.</p>
+        <img src="./img/img.png" alt="Зображення конвертації валют" class="intro-image">
+    </section>
+
+    <section id="exchange-rates">
+        <h2>Актуальні курси валют</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Валюта</th>
+                <th>Курс до USD</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>EUR</td>
+                <td>1.10</td>
+            </tr>
+            <tr>
+                <td>GBP</td>
+                <td>1.30</td>
+            </tr>
+            <tr>
+                <td>JPY</td>
+                <td>0.009</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="converter">
+        <h2>Конвертер Валют</h2>
+        <form>
+            <label for="amount">Сума:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="from-currency">З валюти:</label>
+            <select id="from-currency" name="from_currency" required>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+
+            <label for="to-currency">До валюти:</label>
+            <select id="to-currency" name="to_currency" required>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+
+            <button type="submit">Конвертувати</button>
+        </form>
+    </section>
+
+    <section id="additional-info">
+        <h2>Додаткова інформація</h2>
+        <ul>
+            <li>Конвертер працює з актуальними курсами валют.</li>
+            <li>Ми оновлюємо курси щодня.</li>
+            <li>Для точних даних використовуйте офіційні джерела.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Email: support@currencyconverter.com</p>
+        <p>Телефон: +1234567890</p>
+    </section>
+    <p>&copy; 2024 Конвертер Валют. Всі права захищені.</p>
+</footer>
+</body>
+</html>
