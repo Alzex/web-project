@@ -109,3 +109,75 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+
+@media (max-width: 1200px) {
+    main {
+        max-width: 1000px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        max-width: 800px;
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .intro-image {
+        max-width: 80px;
+    }
+
+    form input, form select, form button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .intro-image {
+        max-width: 60px;
+    }
+
+    form input, form select, form button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
